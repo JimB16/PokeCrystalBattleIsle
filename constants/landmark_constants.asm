@@ -48,6 +48,7 @@
 	const DARK_CAVE
 	const ROUTE_46
 	const SILVER_CAVE
+	const BATTLEISLE_BETA
 
 KANTO_LANDMARK EQU const_value
 

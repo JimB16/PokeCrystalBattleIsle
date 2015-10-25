@@ -264,3 +264,7 @@ BetaBlank_BlockData:
 
 GoldenrodDeptStoreRoof_BlockData:
 	INCBIN "maps/GoldenrodDeptStoreRoof.blk"
+
+
+BattleIsleBeta_BlockData:
+    INCLUDE "maps/BattleIsleBeta.asm"

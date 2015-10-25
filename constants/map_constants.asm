@@ -21,6 +21,9 @@ MAP_NONE   EQU 0
 	mapgroup ROUTE_38, 9, 20
 	mapgroup ROUTE_39, 18, 10
 	mapgroup OLIVINE_CITY, 18, 20
+	
+	mapgroup BATTLEISLE_BETA, 10, 10
+	mapgroup BATTLEISLE_BETA_POKECENTER_1F, 4, 5
 
 	newgroup
 	mapgroup MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, 4, 4

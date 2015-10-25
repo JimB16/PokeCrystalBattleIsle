@@ -46,6 +46,7 @@ CianwoodPokeCenter1F_BlockData:
 ViridianPokeCenter1F_BlockData:
 SaffronPokeCenter1F_BlockData:
 CherrygrovePokeCenter1F_BlockData:
+BattleIsleBetaPokeCenter1F_BlockData:
 	INCBIN "maps/OlivinePokeCenter1F.blk"
 
 BetaPewterMuseumOfScience1F_BlockData:

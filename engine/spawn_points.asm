@@ -9,7 +9,8 @@ spawn: MACRO
 	db \2, \3
 ENDM
 
-	spawn KRISS_HOUSE_2F,              3,  3
+	;spawn KRISS_HOUSE_2F,              3,  3
+	spawn BATTLEISLE_BETA,              0,  0
 	spawn VIRIDIAN_POKECENTER_1F,      5,  3
 
 	spawn PALLET_TOWN,                 5,  6

@@ -44,6 +44,9 @@ MapGroup1:
 	map_header Route38, $1, ROUTE, ROUTE_38, MUSIC_ROUTE_37, 0, PALETTE_AUTO, 1
 	map_header Route39, $1, ROUTE, ROUTE_39, MUSIC_ROUTE_37, 0, PALETTE_AUTO, 1
 	map_header OlivineCity, $1, TOWN, OLIVINE_CITY, MUSIC_VIOLET_CITY, 0, PALETTE_AUTO, 1
+	
+	map_header BattleIsleBeta, $3, TOWN, BATTLEISLE_BETA, MUSIC_NEW_BARK_TOWN, 0, PALETTE_AUTO, 2
+	map_header BattleIsleBetaPokeCenter1F, $7, INDOOR, BATTLEISLE_BETA, MUSIC_POKEMON_CENTER, 0, PALETTE_DAY, 1
 
 
 MapGroup2:
