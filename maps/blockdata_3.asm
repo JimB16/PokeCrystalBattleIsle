@@ -268,3 +268,6 @@ GoldenrodDeptStoreRoof_BlockData:
 
 BattleIsleBeta_BlockData:
     INCLUDE "maps/BattleIsleBeta.asm"
+
+BattleIsleBetaDevHouse_BlockData:
+    INCLUDE "maps/BattleIsleBeta_DevHouse.asm"

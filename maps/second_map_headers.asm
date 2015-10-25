@@ -600,3 +600,4 @@
 
 	map_header_2 BattleIsleBeta, BATTLEISLE_BETA, $f, NONE
 	map_header_2 BattleIsleBetaPokeCenter1F, BATTLEISLE_BETA_POKECENTER_1F, $0, NONE
+	map_header_2 BattleIsleBetaDevHouse, BATTLEISLE_BETA_DEVHOUSE, $0, NONE

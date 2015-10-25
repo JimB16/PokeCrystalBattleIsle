@@ -28,9 +28,10 @@ BattleIsleBeta_MapEventHeader:
 	db 0, 0
 
 .Warps:
-	db 1
+	db 2
 ;	warp_def 24*2+1, 7*2, 1, NEW_BARK_TOWN;FUCHSIA_CITY;ROUTE_19___FUCHSIA_GATE;ELMS_LAB
 	warp_def 11, 8, 1, BATTLEISLE_BETA_POKECENTER_1F
+	warp_def 7, 15, 1, BATTLEISLE_BETA_DEVHOUSE
 
 .XYTriggers:
 	db 0
@@ -38,14 +39,15 @@ BattleIsleBeta_MapEventHeader:
 ;	xy_trigger 0, $9, $1, $0, UnknownScript_0x1a8041, $0, $0
 
 .Signposts:
-	db 1
+	db 2
 	signpost 11, 10, SIGNPOST_READ, JumpText_BattleIsleBetaPokeCenterSign
+	signpost 13, 3, SIGNPOST_READ, JumpText_BattleIsleBetaGameVersionSign
 ;	signpost 14*2+1, 17*2+1, SIGNPOST_READ, JumpText_BattleIsleBetaHotel
 ;	signpost 22*2+1, 11*2+1, SIGNPOST_READ, JumpText_BattleIsleBetaCompound
 
 .PersonEvents:
 	db 2
-	; $2 walk randoml around (up/down/left/right)
+	; $2 walk randomly around (up/down/left/right)
 	; $3 Stand at the same place and rotate
 	; $4 walk randomly around (up/down)
 	; $5 walk randomly around (left/right)
@@ -202,6 +204,20 @@ Text_BattleIsleBetaPokeCenterSign:
 
 	para "The only one on"
 	line "this isle."
+	done
+
+JumpText_BattleIsleBetaGameVersionSign:
+	jumptext Text_BattleIsleBetaGameVersionSign
+
+Text_BattleIsleBetaGameVersionSign:
+	text "#MON Crystal:"
+    line "Battle Isle"
+
+	para "Version 0.01"
+	line "Built: 25.10.2015"
+
+	para "Developer:"
+	line "JimB"
 	done
 
 JumpText_BattleIsleBetaWelcomeSign:
