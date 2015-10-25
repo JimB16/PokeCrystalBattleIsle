@@ -10296,6 +10296,10 @@ UnknownText_0xfa06: ; 0xfa06
 ; 0xfa0b
 
 
+INCLUDE "main_own01.asm"
+
+
+
 SECTION "bank4", ROMX, BANK[$4]
 
 

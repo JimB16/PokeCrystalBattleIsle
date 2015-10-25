@@ -3297,6 +3297,7 @@ Functionf8ec: ; f8ec
 	ret
 ; f963
 
+Add_CurPartyMon_Times: ; f963
 Functionf963: ; f963
 	ld a, [CurPartyMon]
 	call AddNTimes
@@ -3308,3 +3309,6 @@ Functionf969: ; f969
 	add hl, bc
 	ret
 ; f971
+
+
+INCLUDE "items/item_effects_own.asm"

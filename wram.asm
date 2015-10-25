@@ -1344,7 +1344,18 @@ wcfd5:: ds 1
 wcfd6:: ds 1
 wcfd7:: ds 1
 
-	ds 40
+InitPkmnLoop::
+CurMove0::
+ds 1
+CurMove1::
+ds 1
+CurMove2::
+ds 1
+CurMove3::
+ds 1
+HPType::
+ds 1
+	ds (40-5)
 
 
 SECTION "WRAM 1", WRAMX, BANK [1]
