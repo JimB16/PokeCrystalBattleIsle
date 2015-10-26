@@ -146,3 +146,5 @@ const_value = 1
 	const HAPPINESS_MASSAGE           ; 12
 	const HAPPINESS_GAINLEVELATHOME   ; 13
 	
+
+INCLUDE "constants/misc_constants_own.asm"

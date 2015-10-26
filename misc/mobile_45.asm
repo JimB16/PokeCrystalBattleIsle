@@ -21300,6 +21300,9 @@ UnknownText_0x11f681: ; 0x11f681
 	db "@"
 
 
+INCLUDE "misc/mobile_45_own01.asm"
+
+
 SECTION "bank5B", ROMX, BANK[$5B]
 
 Function16c000: ; 16c000
@@ -25120,3 +25123,6 @@ ENDC
 
 Attrmap_173517:
 INCBIN "gfx/unknown/173517.attrmap"
+
+
+INCLUDE "misc/mobile_45_own02.asm"

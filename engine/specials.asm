@@ -139,10 +139,12 @@ SpecialsPointers:: ; c029
 	add_special Function1700b0
 	add_special Function1700ba
 	add_special Function170114
-	add_special Function170215
+	add_special Function170215 ; for BattleTower-Trainer Battles
+	add_special Function170215OwnSpecial
 	add_special Function1704e1
 	add_special Function17021d
 	add_special Function_LoadOpponentTrainerAndPokemonsWithOTSprite
+	add_special Function_LoadOpponentTrainerAndPokemons170b44_Own
 	add_special Function11ba38
 	add_special SpecialCheckForBattleTowerRules
 	add_special Function117656

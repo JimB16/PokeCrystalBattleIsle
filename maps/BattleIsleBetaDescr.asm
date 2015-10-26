@@ -244,6 +244,12 @@ BattleIsleBeta_CoolTrainerScript:
 	writetext CoolTrainerText_01
 	closetext
 	loadmovesprites
+    
+	writebyte 1
+	special Function_LoadOpponentTrainerAndPokemons170b44_Own
+	special Function170215OwnSpecial ; calls predef startbattle
+	special FadeBlackBGMap
+	reloadmap
 	end
 
 CoolTrainerText_01:

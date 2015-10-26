@@ -5989,3 +5989,6 @@ BattleTowerMons10:
 	bigdw 214 ; SAtk
 	bigdw 214 ; SDef
 	db "RANTA-N@@@@"
+
+
+INCLUDE "data/battle_tower_own.asm"
