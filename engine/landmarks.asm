@@ -103,6 +103,9 @@ ENDM
 	landmark 120,  88, DarkCaveName
 	landmark 132, 104, Route46Name
 	landmark 156,  84, SilverCaveName
+	
+    landmark  60, 116, BattleIsleName
+    
 	landmark  60, 124, PalletTownName
 	landmark  60, 108, Route1Name
 	landmark  60,  92, ViridianCityName
@@ -257,6 +260,7 @@ UndergroundName:     db "UNDERGROUND@"
 BattleTowerName:     db "BATTLE", $1f, "TOWER@"
 SpecialMapName:      db "SPECIAL@"
 
+BattleIsleName:      db "BATTLE", $1f, "ISLE@"
 
 RegionCheck: ; 0x1caea1
 ; Checks if the player is in Kanto or Johto.

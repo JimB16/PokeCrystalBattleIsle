@@ -17,17 +17,11 @@ NurseScript_0x18db28_:
 GentlemanScript_0x18db2b_:
 	jumptextfaceplayer GentlemanText_01
 
-FishingGuruScript_0x18db2e_:
-	jumptextfaceplayer UnknownText_0x18dbee_
-
-PokefanFScript_0x18db31_:
-	jumptextfaceplayer UnknownText_0x18dc19_
-
 GentlemanText_01:
 ; In my active days Alakazam was unbeatable. Psychic #MON were so strong back then. Nowadays they can be beaten so easily.
 ;   line "created the system"
-	text "In my active"
-	line "days Alakzam was"
+	text "In my active days"
+	line "Alakazam was"
 	cont "unbeatable."
 
 	para "Psychic #MON"
@@ -36,44 +30,6 @@ GentlemanText_01:
 
 	para "Nowadays they can"
 	line "be beaten easily."
-	done
-
-UnknownText_0x18db88_:
-	text "This BILL guy"
-	line "created the system"
-
-	para "for storing"
-	line "#MON in a PC."
-
-	para "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
-	done
-
-UnknownText_0x18dbee_:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
-	done
-
-UnknownText_0x18dc19_:
-	text "Do you know about"
-	line "APRICORNS?"
-
-	para "Crack one open,"
-	line "hollow it out and"
-
-	para "fit it with a"
-	line "special device."
-
-	para "Then you can catch"
-	line "#MON with it."
-
-	para "Before # BALLS"
-	line "were invented,"
-
-	para "everyone used"
-	line "APRICORNS."
 	done
 
 BattleIsleBetaPokeCenter1F_MapEventHeader:

@@ -273,6 +273,35 @@ Marowak01:
 	bigdw 258 ; SDef
 	db "RANTA-N@@@@"
 
+Marowak_pokegod:
+; 105
+; Marowak @ Thick Club
+	db MAROWAK
+	db THICK_CLUB
+	db EARTHQUAKE, REST, ROCK_SLIDE, SWORDS_DANCE
+	dw 0 ; OT ID
+	dt 1000000 ; Exp
+	; Stat exp
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	db $ff, $ff ; DVs
+	db 16, 16, 16, 48 ; PP
+	db 0 ; Happiness
+	db 0, 0, 0 ; Pokerus, Caught data
+	db 100 ; Level
+	db 0, 0 ; Status
+	bigdw 323 ; HP
+	bigdw 323 ; Max HP
+	bigdw 258 ; Atk
+	bigdw 318 ; Def
+	bigdw 188 ; Spd
+	bigdw 198 ; SAtk
+	bigdw 258 ; SDef
+	db "RANTA-N@@@@"
+
 Starmie01:
 ; 121
 ; Starmie @ Leftovers
@@ -290,6 +319,34 @@ Starmie01:
 	bigdw $ffff
 	db $ff, $ff ; DVs
 	db 15, 40, 20, 10 ; PP
+	db 0 ; Happiness
+	db 0, 0, 0 ; Pokerus, Caught data
+	db 100 ; Level
+	db 0, 0 ; Status
+	bigdw 323 ; HP
+	bigdw 323 ; Max HP
+	bigdw 248 ; Atk
+	bigdw 268 ; Def
+	bigdw 328 ; Spd
+	bigdw 298 ; SAtk
+	bigdw 268 ; SDef
+	db "RANTA-N@@@@"
+
+Starmie_pokegod:
+; 121
+	db STARMIE
+	db LEFTOVERS
+	db PSYCHIC_M, RAPID_SPIN, RECOVER, SURF
+	dw 0 ; OT ID
+	dt 1250000 ; Exp
+	; Stat exp
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	db $ff, $ff ; DVs
+	db 16, 61, 32, 24 ; PP
 	db 0 ; Happiness
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 100 ; Level
@@ -362,6 +419,34 @@ Snorlax01_50:
 	bigdw 228/2 ; SAtk
 	bigdw 318/2 ; SDef
 	db "CURSELAX@@@"
+
+Snorlax_pokegod:
+; 143
+	db SNORLAX
+	db LEFTOVERS
+	db BELLY_DRUM, BODY_SLAM, CURSE, REST
+	dw 0 ; OT ID
+	dt 1250000 ; Exp
+	; Stat exp
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	db $ff, $ff ; DVs
+	db 16, 24, 16, 16 ; PP
+	db 0 ; Happiness
+	db 0, 0, 0 ; Pokerus, Caught data
+	db 100 ; Level
+	db 0, 0 ; Status
+	bigdw 523 ; HP
+	bigdw 523 ; Max HP
+	bigdw 318 ; Atk
+	bigdw 228 ; Def
+	bigdw 158 ; Spd
+	bigdw 228 ; SAtk
+	bigdw 318 ; SDef
+	db "OU God@@@@@"
 
 Snorlax02:
 ; 143
@@ -453,6 +538,91 @@ Zapdos01_50:
 	bigdw 278/2 ; SDef
 	db "RANTA-N@@@@"
 
+Skarmory_pokegod:
+; 227
+	db SKARMORY
+	db NO_ITEM
+	db DRILL_PECK, REST, THIEF, WHIRLWIND
+	dw 0 ; OT ID
+	dt 1250000 ; Exp
+	; Stat exp
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	db $ff, $ff ; DVs
+	db 32, 16, 16, 32 ; PP
+	db 0 ; Happiness
+	db 0, 0, 0 ; Pokerus, Caught data
+	db 100 ; Level
+	db 0, 0 ; Status
+	bigdw 333 ; HP
+	bigdw 333 ; Max HP
+	bigdw 258 ; Atk
+	bigdw 378 ; Def
+	bigdw 238 ; Spd
+	bigdw 178 ; SAtk
+	bigdw 238 ; SDef
+	db "RANTA-N@@@@"
+
+Miltank_pokegod:
+; 242
+	db SKARMORY
+	db LEFTOVERS
+	db BODY_SLAM, GROWL, HEAL_BELL, MILK_DRINK
+	dw 0 ; OT ID
+	dt 1250000 ; Exp
+	; Stat exp
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	db $ff, $ff ; DVs
+	db 24, 61, 8, 16 ; PP
+	db 0 ; Happiness
+	db 0, 0, 0 ; Pokerus, Caught data
+	db 100 ; Level
+	db 0, 0 ; Status
+	bigdw 393 ; HP
+	bigdw 393 ; Max HP
+	bigdw 258 ; Atk
+	bigdw 308 ; Def
+	bigdw 298 ; Spd
+	bigdw 178 ; SAtk
+	bigdw 238 ; SDef
+	db "RANTA-N@@@@"
+
+Tyranitar_pokegod:
+; 248
+; Tyranitar @ Leftovers
+	db TYRANITAR
+	db LEFTOVERS
+	db CRUNCH, DYNAMICPUNCH, PURSUIT, THUNDERBOLT
+	dw 0 ; OT ID
+	dt 1250000 ; Exp
+	; Stat exp
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	bigdw $ffff
+	db $ff, $ff ; DVs
+	db 24, 8, 32, 24 ; PP
+	db 0 ; Happiness
+	db 0, 0, 0 ; Pokerus, Caught data
+	db 100 ; Level
+	db 0, 0 ; Status
+	bigdw 403 ; HP
+	bigdw 403 ; Max HP
+	bigdw 366 ; Atk
+	bigdw 318 ; Def
+	bigdw 220 ; Spd
+	bigdw 288 ; SAtk
+	bigdw 298 ; SDef
+	db "RANTA-N@@@@"
+
 
 
 BattleTowerTrainersOwn:
@@ -460,6 +630,9 @@ BattleTowerTrainersOwn:
 	db 6
 	dw Charizard01, Nidoking01, Marowak01, Starmie01, Zapdos01, Charizard01
 	db "JULIANB@@@", CHUCK
-	db 6
+	db 3
 	dw Snorlax01_50, Snorlax01_50, Zapdos01_50, Snorlax01, Charizard01, Nidoking01;, Marowak01;, Starmie01, Zapdos01;, Charizard01
+	db "poke god@@", COOLTRAINERM
+    db 6
+    dw Tyranitar_pokegod, Marowak_pokegod, Skarmory_pokegod, Snorlax_pokegod, Starmie_pokegod, Miltank_pokegod
 

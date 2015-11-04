@@ -47,7 +47,7 @@ MapGroup1:
 	
 	map_header BattleIsleBeta, $3, TOWN, BATTLEISLE_BETA, MUSIC_NEW_BARK_TOWN, 0, PALETTE_AUTO, 2
 	map_header BattleIsleBetaPokeCenter1F, $7, INDOOR, BATTLEISLE_BETA, MUSIC_POKEMON_CENTER, 0, PALETTE_DAY, 1
-	map_header BattleIsleBetaDevHouse, $d, INDOOR, CELADON_CITY, MUSIC_CELADON_CITY, 0, PALETTE_DAY, 1
+	map_header BattleIsleBetaDevHouse, $d, INDOOR, BATTLEISLE_BETA, MUSIC_CELADON_CITY, 0, PALETTE_DAY, 1
 
 
 MapGroup2:
